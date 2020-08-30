@@ -1,3 +1,5 @@
+Learning links are provided by https://github.com/ColinShaw/machine-learning-resources ColinShaw 
+
 # Machine Learning Resources
 
 This is a curated list of resources that I have found useful regarding
