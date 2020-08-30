@@ -6,6 +6,9 @@ Audio Dataset
 1. https://research.google.com/audioset/index.html 
 2. https://bhichallenge.med.auth.gr/ICBHI_2017_Challenge 
 3. https://github.com/microsoft/DNS-Challenge/tree/master/datasets - DNS-Challenge 
+4. https://urbansounddataset.weebly.com/ 
+5. http://mirlab.org/dataSet/public/ 
+
 
 
 Publications
@@ -18,14 +21,12 @@ Publications
 7. https://www.sciencedirect.com/science/article/pii/S0003682X20306630 FusedTSNet: An automated nocturnal sleep sound classification method based on a fused textural and statistical feature generation network 
 8. http://cs230.stanford.edu/projects_fall_2019/posters/26260838.pdf 
 9. https://arxiv.org/ftp/arxiv/papers/2001/2001.08662.pdf The INTERSPEECH 2020 Deep Noise Suppression Challenge: Datasets, Subjective Speech Quality and Testing Framework
-
-
-
-
-
-
+10. https://arxiv.org/pdf/2005.07551.pdf Dual-Signal Transformation LSTM Network for Real-Time Noise Suppression - DNS-Challenge "https://github.com/breizhn/DTLN" 
 
 Lung Sound Publications 
 1. https://arxiv.org/pdf/2004.04072.pdf CNN-MoE based framework for classification of respiratory anomalies and lung disease detection "Using 2017 ICBHI dataset" 
 2. https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8850324 Lung Sound Recognition Algorithm Based on VGGish-BiGRU "Custom dataset" 
 3. https://link.springer.com/article/10.1007/s13755-019-0091-3 Convolutional neural networks based efficient approach for classification of lung diseases "Using 2017 ICBHI dataset" 
+
+Github Resources 
+1. https://github.com/ashishpatel26/Audio-Classification-Resources 
