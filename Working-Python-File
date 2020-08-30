@@ -5,3 +5,12 @@ Tensorflow tutorial https://www.tensorflow.org/tutorials
 
 Publications
 1. https://openreview.net/pdf?id=H1xQVn09FX - GANSYNTH: ADVERSARIAL NEURAL AUDIO SYNTHESIS 
+
+
+
+
+
+Lung Sound Publications 
+1. https://arxiv.org/pdf/2004.04072.pdf CNN-MoE based framework for classification of respiratory anomalies and lung disease detection "Using 2017 ICBHI dataset" 
+2. https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8850324 Lung Sound Recognition Algorithm Based on VGGish-BiGRU "Custom dataset" 
+3. https://link.springer.com/article/10.1007/s13755-019-0091-3 Convolutional neural networks based efficient approach for classification of lung diseases "Using 2017 ICBHI dataset" 
