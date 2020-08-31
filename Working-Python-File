@@ -32,10 +32,11 @@ Lung Sound Publications
 3. https://link.springer.com/article/10.1007/s13755-019-0091-3 Convolutional neural networks based efficient approach for classification of lung diseases "Using 2017 ICBHI dataset" 
 
 
-Github Resources 
+Github & Kaggle Dataset or Resources 
 1. https://github.com/ashishpatel26/Audio-Classification-Resources 
 2. https://github.com/ColinShaw/machine-learning-resources
-3. https://www.kaggle.com/haohaow/kernel7540d5983c
+3. https://github.com/tensorflow/docs/blob/master/site/en/r1/tutorials/sequences/audio_recognition.md 
+4. https://www.kaggle.com/haohaow/kernel7540d5983c
 
 
 Flow Diagram 
