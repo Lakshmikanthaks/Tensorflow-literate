@@ -4,6 +4,7 @@ Install latest Raspberry Pi OS using RPI-Imager into the formatted SD Card.
 TODO LIST 
 Install ReSpeaker 4-Mic Array for Raspberry Pi from following link https://wiki.seeedstudio.com/ReSpeaker_4_Mic_Array_for_Raspberry_Pi/
 Run TensorFlow Lite Tutorial Part 3: Speech Recognition on Raspberry Pi from following link https://www.digikey.in/en/maker/projects/tensorflow-lite-tutorial-part-3-speech-recognition-on-raspberry-pi/8a2dc7d8a9a947b4a953d37d3b271c71 
+Install Jupyter Notebook in Raspberry pi from following link https://www.instructables.com/id/Jupyter-Notebook-on-Raspberry-Pi/
 Save h5 file from https://www.kaggle.com/gizemtanriver/disease-classification-by-cnn-using-mfcc 
 Convert h5 to tflite 
 Convert Speech Recognition file to be compatible for Disease Classification Work 
