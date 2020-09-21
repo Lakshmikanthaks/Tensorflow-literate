@@ -8,9 +8,12 @@ Save h5 file from https://www.kaggle.com/gizemtanriver/disease-classification-by
 Convert h5 to tflite 
 Convert Speech Recognition file to be compatible for Disease Classification Work 
 
+
 Research
 DOE of parameters and check performance 
 Hardware in the loop based performance check 
+Check and compare SHAP with DOE results from https://github.com/slundberg/shap
+
 
 
 
