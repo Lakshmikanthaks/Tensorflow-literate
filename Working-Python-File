@@ -9,6 +9,7 @@ Audio Dataset
 4. https://urbansounddataset.weebly.com/ 
 5. http://mirlab.org/dataSet/public/ 
 6. https://ieee-dataport.org/open-access/deep-xi-dataset (https://github.com/anicolson/DeepXi)
+7. http://download.tensorflow.org/data/speech_commands_v0.01.tar.gz Speech Commands Dataset 
 
 
 
@@ -25,6 +26,7 @@ Publications
 10. https://arxiv.org/pdf/2005.07551.pdf Dual-Signal Transformation LSTM Network for Real-Time Noise Suppression - DNS-Challenge "https://github.com/breizhn/DTLN" 
 11. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7070339/pdf/sensors-20-01214.pdf Detecting Respiratory Pathologies Using Convolutional Neural Networks and Variational Autoencoders for Unbalancing Data
 12. https://arxiv.org/pdf/1709.04396.pdf A Tutorial on Deep Learning for Music Information Retrieval  
+13. https://arxiv.org/abs/1804.03209 Speech Commands: A Dataset for Limited-Vocabulary Speech Recognition
 
 
 Lung Sound Publications 
@@ -41,6 +43,7 @@ Github & Kaggle Dataset or Resources
 5. https://github.com/daisukelab/ml-sound-classifier (RPi - https://github.com/daisukelab/ml-sound-classifier/blob/master/RaspberryPi.md)
 6. https://github.com/wkentaro/labelme/tree/master/examples/video_annotation (http://labelme2.csail.mit.edu/Release3.0/browserTools/php/iPhoneHelp.php) 
 7. https://github.com/ShawnHymel/tflite-speech-recognition TensorFlow Lite Speech Recognition Demo
+8. https://github.com/tensorflow/docs/blob/master/site/en/r1/tutorials/sequences/audio_recognition.md Simple Audio Recognition from Google Tensorflow 
 
 
 Flow Diagram 
