@@ -19,3 +19,13 @@ Check and compare SHAP with DOE results from https://github.com/slundberg/shap
 
 
 https://github.com/GianlucaPaolocci/Sound-classification-on-Raspberry-Pi-with-Tensorflow
+
+At Raspberri Pi End 
+sudo apt-get install sox netcat 
+
+arecord -Dac108 -f S32_LE -r 48000 -c 4 |nc -l 3333 
+
+At Linux end 
+sudo apt-get install sox netcat 
+
+nc <IP of Raspberri Pi> 3333|play -c 4 -b 32 -e signed -t raw -r 48k - 
