@@ -31,3 +31,29 @@ sudo apt-get install sox netcat
 nc <IP of Raspberri Pi> 3333|play -c 4 -b 32 -e signed -t raw -r 48k - 
 
 nc <IP of Raspberri Pi> 3333|sox -V -t raw -b 32 -e signed -c 4 -r 48k - recorded.wav 
+
+O/P 
+sox:      SoX v14.4.2
+
+Input File     : '-' (raw)
+Channels       : 4
+Sample Rate    : 48000
+Precision      : 32-bit
+Sample Encoding: 32-bit Signed Integer PCM
+Endian Type    : little
+Reverse Nibbles: no
+Reverse Bits   : no
+
+
+Output File    : 'record.wav'
+Channels       : 4
+Sample Rate    : 48000
+Precision      : 32-bit
+Sample Encoding: 32-bit Signed Integer PCM
+Endian Type    : little
+Reverse Nibbles: no
+Reverse Bits   : no
+Comment        : 'Processed by SoX'
+
+sox INFO sox: effects chain: input        48000Hz  4 channels
+sox INFO sox: effects chain: output       48000Hz  4 channels
