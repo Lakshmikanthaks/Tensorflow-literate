@@ -15,7 +15,8 @@ DOE of parameters and check performance
 Hardware in the loop based performance check 
 Check and compare SHAP with DOE results from https://github.com/slundberg/shap
 
-
+Module Reference
+1. netcat - https://man.openbsd.org/nc.1 
 
 
 https://github.com/GianlucaPaolocci/Sound-classification-on-Raspberry-Pi-with-Tensorflow
