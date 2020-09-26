@@ -57,3 +57,6 @@ Comment        : 'Processed by SoX'
 
 sox INFO sox: effects chain: input        48000Hz  4 channels
 sox INFO sox: effects chain: output       48000Hz  4 channels
+
+splitting 4 shannel to single channel using ffmpeg 
+ffmpeg -i record.wav -map_channel 0.0.0 zero.wav -map_channel 0.0.1 one.wav -map_channel 0.0.2 two.wav -map_channel 0.0.3 three.wav 
