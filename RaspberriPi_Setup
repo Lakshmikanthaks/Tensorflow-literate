@@ -29,3 +29,5 @@ At Linux end
 sudo apt-get install sox netcat 
 
 nc <IP of Raspberri Pi> 3333|play -c 4 -b 32 -e signed -t raw -r 48k - 
+
+nc <IP of Raspberri Pi> 3333|sox -V -t raw -b 32 -e signed -c 4 -r 48k - recorded.wav 
