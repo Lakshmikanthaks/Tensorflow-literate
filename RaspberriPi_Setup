@@ -72,3 +72,12 @@ do
     arecord -Dac108 -f S32_LE -r 48000 -c 4 |nc -l 3333
     read INPUT_STRING
 done  
+
+
+Modified Methodology 
+Record audio in 30 or 20 seconds duration in raspberry pi using following command 
+
+rsync to Ubuntu Desktop all the files and delete rsynced files from raspberry pi 
+rsync -avzh pi@<RPI IP>:/home/pi/record/ /home/sriganesh/PhD-SoundAnalysis/shell/
+
+
