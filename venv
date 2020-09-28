@@ -5,3 +5,40 @@ python3 -m venv --system-site-packages ./venv
 
 source ./venv/bin/activate
 
+Install Tensorflow on Raspberri Pi - Work in Progress 
+https://www.tensorflow.org/install/source 
+
+sudo apt install python3-dev python3-pip
+pip install -U --user pip six 'numpy<1.19.0' wheel setuptools mock 'future>=0.17.1' 'gast==0.3.3' typing_extensions
+pip install -U --user keras_applications --no-deps
+pip install -U --user keras_preprocessing --no-deps
+
+
+Install Bazel in Raspberry Pi from following link - Work in Progress 
+http://interstellarengine.com/build-automation/Compiling-Bazel-from-source-on-raspberry-pi.html 
+
+
+sudo apt-get update
+sudo apt-get install pkg-config zip g++ zlib1g-dev unzip autoconf automake libtool
+sudo apt-get install gcc-4.8
+sudo apt-get install gcc++-4.8
+
+sudo gedit /etc/dphys-swapfile 
+CONF_SWAPSIZE=2048
+
+dpkg --list | grep -i jdk
+sudo apt-get install openjdk-8-jdk
+wget https://github.com/bazelbuild/bazel/releases/download/0.21.0/bazel-0.21.0-dist.zip
+unzip -d bazel bazel-0.21.0-dist.zip
+cd bazel
+
+sudo chmod u+w ./* -R
+
+env BAZEL_JAVAC_OPTS="-J-Xms384m -J-Xmx800m" \
+JAVA_TOOL_OPTS="-Xmx800m" \
+EXTRA_BAZEL_ARGS="--host_javabase=@local_jdk//:jdk" \
+bash ./compile.sh
+
+sudo cp output/bazel /usr/local/bin/bazel
+
+bazel 
