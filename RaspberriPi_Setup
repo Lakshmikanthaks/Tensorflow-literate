@@ -76,6 +76,8 @@ done
 
 Modified Methodology 
 Record audio in 30 or 20 seconds duration in raspberry pi using following command 
+arecord -Dac108 -f S32_LE -r 48000 -c 4 --max-file-time 20 --use-strftime /home/pi/record/listen-%H-%M-%S-%v.wav
+
 
 rsync to Ubuntu Desktop all the files and delete rsynced files from raspberry pi 
 rsync -avzh pi@<RPI IP>:/home/pi/record/ /home/sriganesh/PhD-SoundAnalysis/shell/
