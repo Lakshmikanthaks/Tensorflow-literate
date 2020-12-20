@@ -2,6 +2,9 @@ Tensorflow tutorial https://www.tensorflow.org/tutorials
 Deep Noise Suppression (DNS) Challenge - Interspeech 2020 https://github.com/microsoft/DNS-Challenge (https://dns-challenge.azurewebsites.net/) 
 https://arxiv.org/ftp/arxiv/papers/2001/2001.08662.pdf 
 
+Method of Splitting Dataset 
+https://towardsdatascience.com/3-things-you-need-to-know-before-you-train-test-split-869dfabb7e50 
+
 Audio Dataset 
 1. https://research.google.com/audioset/index.html 
 2. https://bhichallenge.med.auth.gr/ICBHI_2017_Challenge 
