@@ -82,4 +82,16 @@ arecord -Dac108 -f S32_LE -r 48000 -c 4 --max-file-time 20 --use-strftime /home/
 rsync to Ubuntu Desktop all the files and delete rsynced files from raspberry pi 
 rsync -avzh pi@<RPI IP>:/home/pi/record/ /home/sriganesh/PhD-SoundAnalysis/shell/
 
+Respeaker Setup and Coherence Check 
+https://wiki.seeedstudio.com/ReSpeaker_4_Mic_Array_for_Raspberry_Pi/ 
+https://respeaker.io/4_mic_array/ 
+https://github.com/respeaker/seeed-voicecard 
+
+sudo apt install python-numpy python-scipy python-matplotlib
+python tools/coherence.py xxx.wav 
+
+Record 4 speaker 
+arecord -Dac108 -f S32_LE -r 16000 -c 4 a.wav
+
+
 
