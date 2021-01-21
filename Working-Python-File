@@ -50,6 +50,7 @@ Github & Kaggle Dataset or Resources
 7. https://github.com/ShawnHymel/tflite-speech-recognition TensorFlow Lite Speech Recognition Demo
 8. https://github.com/tensorflow/docs/blob/master/site/en/r1/tutorials/sequences/audio_recognition.md Simple Audio Recognition from Google Tensorflow 
 9. https://github.com/google-research/google-research/tree/master/kws_streaming 
+10. https://github.com/petewarden/open-speech-recording (Creating cloud dataset from web application) 
 
 Flow Diagram 
 https://app.diagrams.net/ (https://github.com/jgraph/drawio-desktop/releases/tag/v13.6.2) 
