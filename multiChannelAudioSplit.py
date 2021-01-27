@@ -36,9 +36,9 @@ for name in lists_of_files:
     output4 = str(output_file4)
     
     command1 = f"ffmpeg -i {input} -map_channel 0.0.0 {output1}"
-    command2 = f"ffmpeg -i {input} -map_channel 0.0.0 {output2}"
-    command3 = f"ffmpeg -i {input} -map_channel 0.0.0 {output3}"
-    command4 = f"ffmpeg -i {input} -map_channel 0.0.0 {output4}"
+    command2 = f"ffmpeg -i {input} -map_channel 0.0.1 {output2}"
+    command3 = f"ffmpeg -i {input} -map_channel 0.0.2 {output3}"
+    command4 = f"ffmpeg -i {input} -map_channel 0.0.3 {output4}"
 
     os.system(command1)
     os.system(command2)
